@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Relations\Relation;
+use URL;
 use Validator;
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,6 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // added to force serveing js & css files over https
+        //$this->app['request']->server->set('HTTPS','on');
+        URL::forceScheme('https');
+
         Relation::morphMap([
             'users'=>'App\User',
             'plans'=>'App\Models\Plan',
