@@ -47,7 +47,7 @@ class LoginController
     public function logout()
     {
         Auth::logout();
-        $redirect_url = "/login";
+        $redirect_url = url('/')."/login";
         return redirect(Azure::getLogoutUrl($redirect_url));
     }
 }
