@@ -47,7 +47,7 @@ class LoginController
     public function logout()
     {
         Auth::logout();
-        $redirect_url = "https://whoapp.dci.in/login";
+        $redirect_url = "/login";
         return redirect(Azure::getLogoutUrl($redirect_url));
     }
 }

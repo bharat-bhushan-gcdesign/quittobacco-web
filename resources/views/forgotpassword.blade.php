@@ -49,7 +49,7 @@
                      </div>
                      <div class="col-lg-12  col-md-12  col-sm-12 avi_logos avi_logos_forg">
                         <!--<img src="{{url('/')}}/img/678.jpg" class="login-img">-->
-						 <img src="http://whoapp.dci.in/uploads/userimage/who-LOGO.png"  class="avi_logo" alt="logo_img" width="100px"/>
+						 <img src="{{url('/')}}/uploads/userimage/who-LOGO.png"  class="avi_logo" alt="logo_img" width="100px"/>
                         <div class="md_left_imgtext">
                           <!-- <p>A Sample and intelligent to-do list that makes it easy to plan your day</p>-->
                         </div>

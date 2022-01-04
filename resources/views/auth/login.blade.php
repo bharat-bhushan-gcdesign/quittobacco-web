@@ -15,7 +15,7 @@
 
                     <div class="col-md-4" align="right">
 
-                                 <img src="http://whoapp.dci.in/uploads/userimage/who-LOGO.png"   alt="logo_img" width="200px"/>
+                                 <img src="{{url('/')}}/uploads/userimage/who-LOGO.png"   alt="logo_img" width="200px"/>
                             <!--<img src="{{url('/')}}/img/678.jpg" class="login-img">-->
                             <div class="md_left_imgtext">
                                 <!---<p>A Sample and intelligent to-do list that makes it easy to plan your day</p>-->

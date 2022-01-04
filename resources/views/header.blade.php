@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Tobacco App</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="shortcut icon" href="https://whoapp.dci.in/uploads/userimage/who-LOGO.png"/>
+      <link rel="shortcut icon" href="{{url('/')}}/uploads/userimage/who-LOGO.png"/>
     
     <link rel="shortcut icon" href=""/>
     

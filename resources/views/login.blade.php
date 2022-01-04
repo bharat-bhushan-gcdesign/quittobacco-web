@@ -4,7 +4,7 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
         <title>Tobacco App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="shortcut icon" href="https://whoapp.dci.in/uploads/userimage/who-LOGO.png"/>
+        <link rel="shortcut icon" href="{{url('/')}}/uploads/userimage/who-LOGO.png"/>
         <!--Global styles -->
         <link type="text/css" rel="stylesheet" href="{{url('/')}}/css/components.css" />
         <link type="text/css" rel="stylesheet" href="{{url('/')}}/css/custom.css" />
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-lg-12  col-md-12  col-sm-12 avi_logos">
                         <h1>WHO</h1> 
-			                 <img src="http://whoapp.dci.in/uploads/userimage/who-LOGO.png"   alt="logo_img" width="200px"/>
+			                 <img src="{{url('/')}}/uploads/userimage/who-LOGO.png"   alt="logo_img" width="200px"/>
                         <!--<img src="{{url('/')}}/img/678.jpg" class="login-img">-->
                         <div class="md_left_imgtext">
                             <!---<p>A Sample and intelligent to-do list that makes it easy to plan your day</p>-->
@@ -119,7 +119,7 @@
                                         <input type="button" class="btn btn-primary btn-block login_button" onclick="return validation();" value="Submit">
                                     </div>
                                     <div>
-                                        <span class="psw">Forgot <a href="http://whoapp.dci.in/forgotpassword">password?</a></span>
+                                        <span class="psw">Forgot <a href="{{url('/')}}/forgotpassword">password?</a></span>
                                     </div>
                                 </div>
                             </div>
